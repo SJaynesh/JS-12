@@ -1,9 +1,10 @@
-let a = 1;
+let a = 10;
 
-while (a <= 10) {
-  document.write(a + " Hello World<br>");
-
-  a++;
+while (a >= 1) {
+  // 0 >= 1
+  console.log(a); // 10 9 8 ... 1
+  a--; // 0
 }
 
-document.write(a); // 11
+// 1 2 3 ... 10
+// 10 9 8 ... 1
